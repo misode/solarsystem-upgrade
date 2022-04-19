@@ -1,0 +1,61 @@
+{
+  "type": "solarsystem:thick_atmosphere",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1850247154,
+    "settings": "solarsystem:empty",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:jovian_white",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.8,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:jovian_red",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.4,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:jovian_white",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.2,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:jovian_brown",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

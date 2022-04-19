@@ -1,0 +1,29 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Beyond the Atmosphere",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Enter a space portal"
+        },
+        "icon": {
+            "item": "minecraft:netherite_block",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/entity/end_portal.png"
+    },
+    "criteria": {
+        "Space Portal": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    }
+}

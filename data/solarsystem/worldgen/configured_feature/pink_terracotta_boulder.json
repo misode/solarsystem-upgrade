@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "state": {
+        "Name": "minecraft:pink_terracotta"
+      },
+      "type": "minecraft:simple_state_provider"
+    },
+    "block_placer": {
+      "type": "minecraft:simple_block_placer"
+    }
+  }
+}

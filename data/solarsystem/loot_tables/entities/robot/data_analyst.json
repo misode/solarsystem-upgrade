@@ -1,0 +1,81 @@
+{
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "solarsystem:blocks/robot/electronics"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.025,
+                    "looting_multiplier": 0.01
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:player_head",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Robot Data Analyst Head\",\"color\":\"yellow\",\"italic\":false}'},Tags:[\"space_proof\"],Enchantments:[{id:\"minecraft:protection\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1717537318,332873889,-1824344841,2032546239],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.05,Operation:1,UUID:[I;325218755,1226788434,-1084452084,-448814796],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-0.1,Operation:1,UUID:[I;1234934796,91243868,-1820364046,-50181799],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;991704094,-964014624,-1151992522,1035460086],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;85380795,1038042872,-1575315225,-1666202662],Slot:\"head\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.1,Operation:1,UUID:[I;672186845,-554483241,-1239143127,1823267643],Slot:\"head\"}],SkullOwner:{Id:[I;-742855222,-1136115174,-1757319789,-1905079730],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWIxOGI2MmQ4MTU0YTU2ZWQ0ZjFiYjZiNTM4OWQxZTUyNjBlZjhhOGY0ZmUxOTY2ZDA5ZTVhNWViYjIwYzgzYiJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Robot Data Analyst Chestplate\",\"color\":\"yellow\",\"italic\":false}',color:16752672},Unbreakable:1b,Tags:[\"space_proof\"],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;835780038,-1432926590,-1696603636,-2046545509],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.05,Operation:1,UUID:[I;1938455319,-985773409,-1691666394,1073058416],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-0.1,Operation:1,UUID:[I;-522727644,860243623,-1330943474,2047798428],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:10,Operation:0,UUID:[I;1693227282,-1773123031,-1368771518,-35459575],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-1015687402,96882510,-1123179871,-22124481],Slot:\"chest\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.1,Operation:1,UUID:[I;-1936018347,242699777,-1951036746,-1149516075],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Robot Data Analyst Leggings\",\"color\":\"yellow\",\"italic\":false}',color:16752672},Unbreakable:1b,Tags:[space_proof],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;126760141,-580893652,-1595994438,311207467],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.3,Operation:1,UUID:[I;-296629284,-414167711,-1864327691,1494177738],Slot:\"legs\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-0.1,Operation:1,UUID:[I;1950504799,753156957,-1333776051,1695139768],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;928490803,627263922,-2065283242,-362786492],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-536957215,1275544676,-1536850661,161028043],Slot:\"legs\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.1,Operation:1,UUID:[I;-1502986225,-502445950,-1588970952,92054117],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Robot Data Analyst Boots\",\"color\":\"yellow\",\"italic\":false}',color:16752672},Unbreakable:1b,Tags:[space_proof],AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-179927342,709446103,-1509463608,-438386552],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.05,Operation:1,UUID:[I;867089465,-1617083212,-1716878940,-48109973],Slot:\"feet\"},{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:-0.1,Operation:1,UUID:[I;1947196487,-303281392,-1296848282,77534589],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5,Operation:0,UUID:[I;514373282,1267548526,-2033094459,86031872],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;1975482428,1538607679,-1329297658,787496779],Slot:\"feet\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:0.1,Operation:1,UUID:[I;431554009,-2101394296,-1339997118,-482395038],Slot:\"feet\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Tags:[laser_gun],display:{Name:'{\"text\":\"Laser Pistol\",\"color\":\"yellow\",\"italic\":false}'},Unbreakable:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:10s}],ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b},{},{}],Charged:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

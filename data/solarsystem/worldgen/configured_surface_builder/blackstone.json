@@ -1,0 +1,17 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:blackstone"
+    },
+    "under_material": {
+      "Name": "minecraft:blackstone"
+    },
+    "underwater_material": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:basalt"
+    }
+  },
+  "type": "minecraft:default"
+}

@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:yellow_terracotta"
+    },
+    "under_material": {
+      "Name": "minecraft:yellow_terracotta"
+    },
+    "underwater_material": {
+      "Name": "minecraft:yellow_terracotta"
+    }
+  },
+  "type": "minecraft:default"
+}

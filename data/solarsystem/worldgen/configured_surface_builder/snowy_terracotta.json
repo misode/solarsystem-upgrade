@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:snow_block"
+    },
+    "under_material": {
+      "Name": "minecraft:terracotta"
+    },
+    "underwater_material": {
+      "Name": "minecraft:snow_block"
+    }
+  },
+  "type": "minecraft:default"
+}

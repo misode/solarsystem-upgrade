@@ -1,0 +1,53 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 9,
+                    "name": "minecraft:knowledge_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Graviton Producer Recipe\",\"color\":\"yellow\",\"italic\":false}'},Recipes:[\"solarsystem:unlocked_graviton_producer\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 7,
+                    "name": "minecraft:knowledge_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Graviton Reducer Recipe\",\"color\":\"yellow\",\"italic\":false}'},Recipes:[\"solarsystem:unlocked_graviton_reducer\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:knowledge_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Block Smasher Recipe\",\"color\":\"yellow\",\"italic\":false}'},Recipes:[\"solarsystem:unlocked_block_smasher\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 5,
+                    "name": "minecraft:knowledge_book",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Block Placer Recipe\",\"color\":\"yellow\",\"italic\":false}'},Recipes:[\"solarsystem:unlocked_block_placer\"]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

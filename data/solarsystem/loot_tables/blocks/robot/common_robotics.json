@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 5,
+                "max": 7
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "solarsystem:entities/robot/robot"
+                }
+            ]
+        }
+    ]
+}

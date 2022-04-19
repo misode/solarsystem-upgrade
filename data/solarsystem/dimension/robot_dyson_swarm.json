@@ -1,0 +1,25 @@
+{
+  "type": "solarsystem:orbit",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 305396382,
+    "settings": "solarsystem:robot_dyson_swarm",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:robot_dyson_swarm",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.7,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 1
+          }
+        }
+      ]
+    }
+  }
+}

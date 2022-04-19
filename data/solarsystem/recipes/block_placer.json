@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+		"NNN",
+		"QBD",
+		"NNN"
+    ],
+	"key": {
+		"Q": {
+			"item": "minecraft:quartz_block"
+		},
+		"N": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"D": {
+			"item": "minecraft:dispenser"
+		},
+		"B": {
+			"item": "minecraft:beacon"
+		}
+	},
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,1 @@
+data merge entity @e[tag=g,sort=nearest,limit=1] {CustomName:'{"color":"yellow","text":"2.5g"}'}

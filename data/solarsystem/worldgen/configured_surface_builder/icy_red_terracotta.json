@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:red_terracotta"
+    },
+    "under_material": {
+      "Name": "minecraft:packed_ice"
+    },
+    "underwater_material": {
+      "Name": "minecraft:red_terracotta"
+    }
+  },
+  "type": "minecraft:default"
+}

@@ -1,0 +1,85 @@
+{
+  "type": "solarsystem:space",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1346789873,
+    "settings": "solarsystem:rocky_ice_world",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:icy_red_hills",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:icy_red_plains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:icy_red_crater_edge",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.7,
+            "depth": 0,
+            "offset": 0.225
+          }
+        },
+        {
+          "biome": "solarsystem:icy_red_crater_edge",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0.7,
+            "depth": 0,
+            "offset": 0.225
+          }
+        },
+        {
+          "biome": "solarsystem:snowy_crater",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.8,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:snowy_crater",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0.8,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

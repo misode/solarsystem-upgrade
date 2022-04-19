@@ -1,0 +1,2 @@
+kill @e[type=armor_stand,tag=jellyfish]
+execute as @s at @s run summon armor_stand ~ ~-1.5 ~ {Invisible:1b,NoGravity:1b,Marker:1b,Tags:["jellyfish"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjkwMTYxZDI4MDljNGY0ZTdkZDhjM2JjOTk0MmZjNjZhYjVkNThhZDcyZGZmYTVjYjVjZjhmNjM1MmY4YWEyYiJ9fX0="}]},Id:[I;-667827962,1977633960,-1813230866,1358841813]},display:{Name:'{"text":"Jelly Fish"}'}}}]}

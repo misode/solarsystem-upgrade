@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Neptunian",
+            "color": "dark_blue"
+        },
+        "description": {
+            "text": "Explore all of Neptune's unique biomes"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Neptune\\\"}\"},SkullOwner:{Id:[I;1940689931,-2093070125,-1547335018,1875007084],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY4MmFmMDgyNThjM2ZhOGYxNDk4MDY3OWZlMTIzNTI2NzZjMGNhNWQ0MDUxZWMxZThmZDMzODU0MDBkNWUzZiJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Neptunian Lightblue": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:neptunian_lightblue"
+            }
+        },
+        "Neptunian Blue": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:neptunian_blue"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+    },
+    "parent": "solarsystem:solar"
+}

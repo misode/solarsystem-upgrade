@@ -1,0 +1,19 @@
+data merge entity @e[tag=primary,sort=nearest,limit=1] {CustomName:'{"color":"gray","text":"Primary: Sol"}'}
+execute if entity @s[scores={hub_x=0}] run function solarsystem:hub/new_object/sol
+execute if entity @s[scores={hub_x=1}] run function solarsystem:hub/new_object/sol/mercury
+execute if entity @s[scores={hub_x=2}] run function solarsystem:hub/new_object/sol/venus
+execute if entity @s[scores={hub_x=3}] run function solarsystem:hub/new_object/sol/earth
+execute if entity @s[scores={hub_x=4}] run function solarsystem:hub/new_object/sol/mars
+execute if entity @s[scores={hub_x=5}] run function solarsystem:hub/new_object/sol/ceres
+execute if entity @s[scores={hub_x=6}] run function solarsystem:hub/new_object/sol/jupiter
+execute if entity @s[scores={hub_x=7}] run function solarsystem:hub/new_object/sol/saturn
+execute if entity @s[scores={hub_x=8}] run function solarsystem:hub/new_object/sol/uranus
+execute if entity @s[scores={hub_x=9}] run function solarsystem:hub/new_object/sol/neptune
+execute if entity @s[scores={hub_x=10}] run function solarsystem:hub/new_object/sol/orcus
+execute if entity @s[scores={hub_x=11}] run function solarsystem:hub/new_object/sol/pluto
+execute if entity @s[scores={hub_x=12}] run function solarsystem:hub/new_object/sol/haumea
+execute if entity @s[scores={hub_x=13}] run function solarsystem:hub/new_object/sol/quaoar
+execute if entity @s[scores={hub_x=14}] run function solarsystem:hub/new_object/sol/makemake
+execute if entity @s[scores={hub_x=15}] run function solarsystem:hub/new_object/sol/gonggong
+execute if entity @s[scores={hub_x=16}] run function solarsystem:hub/new_object/sol/eris
+execute if entity @s[scores={hub_x=17}] run function solarsystem:hub/new_object/sol/sedna

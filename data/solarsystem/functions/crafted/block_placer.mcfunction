@@ -1,0 +1,6 @@
+recipe take @s solarsystem:block_placer
+advancement revoke @s only solarsystem:crafted_block_placer
+execute as @s[scores={recipe_known_5=1},gamemode=!creative] run give @s minecraft:player_head{display:{Name:'{"text":"Block Placer","color":"dark_aqua","italic":false}'},SkullOwner:{Id:[I;2012820418,-336051977,-1362763724,1176503772],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljMWUzY2Q0NzI5NjM3OTFjNTA3YWRiYmFhMDYzYjBiM2FiMzc2YmEyNjllZGZmNzA0MDdkNjZlZDYwN2Q2YSJ9fX0="}]}}}
+execute as @s[gamemode=!creative] unless entity @s[scores={recipe_known_5=1}] run function solarsystem:crafted/block_placer_refund
+execute as @s[gamemode=creative] run give @s minecraft:player_head{display:{Name:'{"text":"Block Placer","color":"dark_aqua","italic":false}'},SkullOwner:{Id:[I;2012820418,-336051977,-1362763724,1176503772],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljMWUzY2Q0NzI5NjM3OTFjNTA3YWRiYmFhMDYzYjBiM2FiMzc2YmEyNjllZGZmNzA0MDdkNjZlZDYwN2Q2YSJ9fX0="}]}}}
+clear @s minecraft:knowledge_book

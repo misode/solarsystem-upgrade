@@ -1,0 +1,71 @@
+{
+  "bedrock_roof_position": -2147483648,
+  "bedrock_floor_position": -2147483648,
+  "sea_level": 41,
+  "disable_mob_generation": false,
+  "structures": {
+    "stronghold": {
+      "distance": 32,
+      "spread": 3,
+      "count": 128
+    },
+    "structures": {
+      "minecraft:village": {
+        "spacing": 16,
+        "separation": 4,
+        "salt": 10387312
+      }
+    }
+  },
+  "noise": {
+    "min_y": 0,
+    "bottom_slide": {
+      "target": -0.234375,
+      "size": 7,
+      "offset": 4
+    },
+    "size_horizontal": 1,
+    "size_vertical": 2,
+    "height": 256,
+    "sampling": {
+      "xz_scale": 1,
+      "y_scale": 1,
+      "xz_factor": 80,
+      "y_factor": 160
+    },
+    "top_slide": {
+      "target": -0.078125,
+      "size": 3,
+      "offset": 0
+    },
+    "terrain_shaper": {
+      "offset": 0,
+      "factor": 0,
+      "jaggedness": 0
+    }
+  },
+  "terrain_shaper": {
+    "offset": 0,
+    "factor": 0,
+    "jaggedness": 0
+  },
+  "default_block": {
+    "Name": "minecraft:packed_ice"
+  },
+  "default_fluid": {
+    "Properties": {
+      "level": "0"
+    },
+    "Name": "minecraft:water"
+  },
+  "noise_caves_enabled": false,
+  "noodle_caves_enabled": false,
+  "aquifers_enabled": false,
+  "deepslate_enabled": false,
+  "ore_veins_enabled": false,
+  "legacy_random_source": false,
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": []
+  }
+}

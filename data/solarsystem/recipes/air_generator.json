@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+		" N ",
+		"NFB",
+		" N "
+    ],
+	"key": {
+		"N": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"F": {
+			"item": "minecraft:furnace"
+		},
+		"B": {
+			"item": "minecraft:iron_bars"
+		}
+	},
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

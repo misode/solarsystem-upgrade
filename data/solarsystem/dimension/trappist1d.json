@@ -1,0 +1,121 @@
+{
+  "type": "solarsystem:thick_atmosphere_water_safe",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -3249536271,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:steamy_mountains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:steamy_hills",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:steamy_plains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:steamy_ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:steamy_deep_ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:steamy_hot_spring_red",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.34,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.377
+          }
+        },
+        {
+          "biome": "solarsystem:steamy_hot_spring_yellow",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.36,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.382
+          }
+        },
+        {
+          "biome": "solarsystem:steamy_hot_spring_lime",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.38,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.39
+          }
+        },
+        {
+          "biome": "solarsystem:steamy_hot_spring",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.4,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.4
+          }
+        }
+      ]
+    }
+  }
+}

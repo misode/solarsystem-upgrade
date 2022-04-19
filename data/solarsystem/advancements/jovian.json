@@ -1,0 +1,44 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Jovian",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Explore all of Jupiter's unique biomes"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Jupiter\\\"}\"},SkullOwner:{Id:[I;-714053676,472140612,-1738403476,154303968],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzkwMTNjYzM0NzhjYTIyMDcyYjk5MDUyM2Y0YTYwNzE3OGUyYWQ0OGI0ZWIxNjA5ZWQyN2M1OTQ3YmI0OWJlMCJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Jovian Brown": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:jovian_brown"
+            }
+        },
+        "Jovian White": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:jovian_white"
+            }
+        },
+        "Jovian Red": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:jovian_red"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 300
+    },
+    "parent": "solarsystem:solar"
+}

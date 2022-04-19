@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"crafted_air_generator": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "solarsystem:air_generator"
+			}
+		}
+	},
+	"rewards": {
+		"function": "solarsystem:crafted/air_generator"
+	}
+}

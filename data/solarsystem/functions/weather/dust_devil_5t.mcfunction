@@ -1,0 +1,2 @@
+execute as @e[type=area_effect_cloud,tag=dust_devil_effects] at @s run tp @s @e[type=area_effect_cloud,tag=dust_devil_control,limit=1,sort=nearest]
+schedule function solarsystem:weather/dust_devil_5t 5t

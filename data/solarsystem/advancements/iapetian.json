@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Iapetian",
+            "color": "gray"
+        },
+        "description": {
+            "text": "Explore all of Iapetus' unique biomes"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Iapetus\\\"}\"},SkullOwner:{Id:[I;-1892520466,1579567736,-1431437019,-1197822808],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWNhZDNmMDRiYWI4MDU4N2IyOThhZWEyZDIyZDJlYjY4YWY2ZTg1M2FmYzg5ZjA3OGJjYTNlMTFlOWM3YWRhNSJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Iapetian Ridge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:iapetian_ridge"
+            }
+        },
+        "Iapetian Gray": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:iapetian_gray"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 200
+    },
+    "parent": "solarsystem:titanian"
+}

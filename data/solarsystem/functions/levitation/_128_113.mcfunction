@@ -1,0 +1,16 @@
+effect give @s[scores={levitation=-113}] minecraft:levitation 1 143 true
+effect give @s[scores={levitation=-114}] minecraft:levitation 1 142 true
+effect give @s[scores={levitation=-115}] minecraft:levitation 1 141 true
+effect give @s[scores={levitation=-116}] minecraft:levitation 1 140 true
+effect give @s[scores={levitation=-117}] minecraft:levitation 1 139 true
+effect give @s[scores={levitation=-118}] minecraft:levitation 1 138 true
+effect give @s[scores={levitation=-119}] minecraft:levitation 1 137 true
+effect give @s[scores={levitation=-120}] minecraft:levitation 1 136 true
+effect give @s[scores={levitation=-121}] minecraft:levitation 1 135 true
+effect give @s[scores={levitation=-122}] minecraft:levitation 1 134 true
+effect give @s[scores={levitation=-123}] minecraft:levitation 1 133 true
+effect give @s[scores={levitation=-124}] minecraft:levitation 1 132 true
+effect give @s[scores={levitation=-125}] minecraft:levitation 1 131 true
+effect give @s[scores={levitation=-126}] minecraft:levitation 1 130 true
+effect give @s[scores={levitation=-127}] minecraft:levitation 1 129 true
+effect give @s[scores={levitation=-128}] minecraft:levitation 1 128 true

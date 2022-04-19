@@ -1,0 +1,97 @@
+{
+  "type": "solarsystem:space",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 580598190,
+    "settings": "solarsystem:robot_mining",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:regolith_mountains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:robot_regolith_hills",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:robot_regolith_plains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:robot_regolith_valley",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -0.2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:regolith_crater",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.5,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "solarsystem:regolith_crater_edge",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.05,
+            "erosion": 0,
+            "weirdness": 0.4,
+            "depth": 0,
+            "offset": 0.22
+          }
+        },
+        {
+          "biome": "solarsystem:regolith_crater_edge",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -0.05,
+            "erosion": 0,
+            "weirdness": 0.4,
+            "depth": 0,
+            "offset": 0.22
+          }
+        }
+      ]
+    }
+  }
+}

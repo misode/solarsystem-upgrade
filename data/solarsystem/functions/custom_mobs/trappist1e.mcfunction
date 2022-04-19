@@ -1,0 +1,1 @@
+execute as @s[type=minecraft:pufferfish] at @s run function solarsystem:custom_mobs/trappist1e/jelly_fish

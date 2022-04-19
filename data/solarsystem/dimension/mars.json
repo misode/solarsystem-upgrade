@@ -1,0 +1,241 @@
+{
+  "type": "solarsystem:space",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -717427866,
+    "settings": "solarsystem:mars",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:martian_icecap_valley",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0.9,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "solarsystem:martian_volcano",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0.7,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_mountains",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0.6,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_mountains",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_hills",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_plains",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0.2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_valley",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": -0.2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_canyon",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.19
+          }
+        },
+        {
+          "biome": "solarsystem:martian_icecap_valley",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.9,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "solarsystem:martian_icecap_volcano",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.7,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_icecap_mountains",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.6,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_icecap_mountains",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_icecap_hills",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_icecap_plains",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0,
+            "continentalness": 0.2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_icecap_valley",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0,
+            "continentalness": -0.2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:martian_icecap_canyon",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.19
+          }
+        },
+        {
+          "biome": "solarsystem:martian_crater_edge",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0.05,
+            "erosion": 0,
+            "weirdness": 0.6,
+            "depth": 0,
+            "offset": 0.34
+          }
+        },
+        {
+          "biome": "solarsystem:martian_crater_edge",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": -0.05,
+            "erosion": 0,
+            "weirdness": 0.6,
+            "depth": 0,
+            "offset": 0.34
+          }
+        },
+        {
+          "biome": "solarsystem:martian_valley",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.8,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

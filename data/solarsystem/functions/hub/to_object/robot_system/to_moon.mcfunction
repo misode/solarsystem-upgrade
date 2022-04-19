@@ -1,0 +1,30 @@
+execute if entity @e[tag=hub_origin,scores={hub_x=2,hub_z=1}] in solarsystem:robot_db run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=3,hub_z=1}] in solarsystem:robot_eb run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=3,hub_z=1}] in solarsystem:robot_eb at @s run fill ~2 5 ~2 ~-2 5 ~-2 minecraft:obsidian replace minecraft:air
+execute if entity @e[tag=hub_origin,scores={hub_x=3,hub_z=2}] in solarsystem:robot_ec run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=3,hub_z=3}] in solarsystem:robot_ed run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=3,hub_z=4}] in solarsystem:robot_ee run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=3,hub_z=5}] in solarsystem:robot_ef run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=3,hub_z=6}] in solarsystem:robot_eg run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=4,hub_z=1}] in solarsystem:robot_fb run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=4,hub_z=2}] in solarsystem:robot_fc run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=4,hub_z=3}] in solarsystem:robot_fd run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=4,hub_z=4}] in solarsystem:robot_fe run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=4,hub_z=5}] in solarsystem:robot_ff run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=5,hub_z=1}] in solarsystem:robot_gb run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=5,hub_z=2}] in solarsystem:robot_gc run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=5,hub_z=3}] in solarsystem:robot_gd run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=6,hub_z=1}] in solarsystem:robot_hb run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=6,hub_z=2}] in solarsystem:robot_hc run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=6,hub_z=3}] in solarsystem:robot_hd run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=6,hub_z=4}] in solarsystem:robot_he run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=1}] in solarsystem:robot_ib run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=2}] in solarsystem:robot_ic run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=3}] in solarsystem:robot_id run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=1}] in solarsystem:robot_jb run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=2}] in solarsystem:robot_jc run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=3}] in solarsystem:robot_jd run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=4}] in solarsystem:robot_je run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=5}] in solarsystem:robot_jf run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=10,hub_z=1}] in solarsystem:robot_lb run tp @s ~ 256 ~
+execute at @s run spreadplayers ~ ~ 0 1 false @s

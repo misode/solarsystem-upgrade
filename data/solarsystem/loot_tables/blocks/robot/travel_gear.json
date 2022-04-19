@@ -1,0 +1,95 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "conditions": [
+                {
+                    "condition": "random_chance",
+                    "chance": 0.1
+                }
+            ],
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:flint_and_steel",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "solarsystem:blocks/robot/redstone"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:compass",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.5
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:clock",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 3,
+                    "name": "solarsystem:blocks/robot/machine_supplies"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "name": "solarsystem:entities/robot/robot"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "solarsystem:blocks/robot/common_knowledge"
+                }
+            ]
+        }
+    ]
+}

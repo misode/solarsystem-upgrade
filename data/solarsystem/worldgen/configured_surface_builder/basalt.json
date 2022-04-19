@@ -1,0 +1,23 @@
+{
+  "config": {
+    "top_material": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:basalt"
+    },
+    "under_material": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:basalt"
+    },
+    "underwater_material": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:basalt"
+    }
+  },
+  "type": "minecraft:default"
+}

@@ -1,0 +1,90 @@
+scoreboard players reset @s g
+#Sol
+execute if predicate solarsystem:in_mercury run scoreboard players set @s g 380
+execute if predicate solarsystem:in_venus run scoreboard players set @s g 904
+execute if predicate solarsystem:in_moon run scoreboard players set @s g 165
+execute if predicate solarsystem:in_mars run scoreboard players set @s g 379
+execute if predicate solarsystem:in_ceres run scoreboard players set @s g 29
+execute if predicate solarsystem:in_jupiter run scoreboard players set @s g 2528
+execute if predicate solarsystem:in_io run scoreboard players set @s g 183
+execute if predicate solarsystem:in_europa run scoreboard players set @s g 134
+execute if predicate solarsystem:in_ganymede run scoreboard players set @s g 146
+execute if predicate solarsystem:in_callisto run scoreboard players set @s g 126
+execute if predicate solarsystem:in_mimas run scoreboard players set @s g 6
+execute if predicate solarsystem:in_enceladus run scoreboard players set @s g 11
+execute if predicate solarsystem:in_tethys run scoreboard players set @s g 15
+execute if predicate solarsystem:in_dione run scoreboard players set @s g 24
+execute if predicate solarsystem:in_rhea run scoreboard players set @s g 27
+execute if predicate solarsystem:in_titan run scoreboard players set @s g 138
+execute if predicate solarsystem:in_iapetus run scoreboard players set @s g 23
+execute if predicate solarsystem:in_uranus run scoreboard players set @s g 886
+execute if predicate solarsystem:in_miranda run scoreboard players set @s g 8
+execute if predicate solarsystem:in_ariel run scoreboard players set @s g 27
+execute if predicate solarsystem:in_umbriel run scoreboard players set @s g 23
+execute if predicate solarsystem:in_titania run scoreboard players set @s g 39
+execute if predicate solarsystem:in_oberon run scoreboard players set @s g 35
+execute if predicate solarsystem:in_neptune run scoreboard players set @s g 1140
+execute if predicate solarsystem:in_triton run scoreboard players set @s g 79
+execute if predicate solarsystem:in_orcus run scoreboard players set @s g 21
+execute if predicate solarsystem:in_vanth run scoreboard players set @s g 7
+execute if predicate solarsystem:in_pluto run scoreboard players set @s g 63
+execute if predicate solarsystem:in_charon run scoreboard players set @s g 29
+execute if predicate solarsystem:in_haumea run scoreboard players set @s g 42
+execute if predicate solarsystem:in_quaor run scoreboard players set @s g 31
+execute if predicate solarsystem:in_makemake run scoreboard players set @s g 41
+execute if predicate solarsystem:in_gonggong run scoreboard players set @s g 32
+execute if predicate solarsystem:in_eris run scoreboard players set @s g 83
+execute if predicate solarsystem:in_dysnomia run scoreboard players set @s g 9
+execute if predicate solarsystem:in_sedna run scoreboard players set @s g 30
+#Alpha Centauri A
+execute if predicate solarsystem:in_proxima_centauri_b run scoreboard players set @s g 1150
+execute if predicate solarsystem:in_proxima_centauri_c run scoreboard players set @s g 900
+#Trappist1
+execute if predicate solarsystem:in_trappist1b run scoreboard players set @s g 900
+execute if predicate solarsystem:in_trappist1d run scoreboard players set @s g 1150
+execute if predicate solarsystem:in_trappist1e run scoreboard players set @s g 900
+execute if predicate solarsystem:in_trappist1f run scoreboard players set @s g 600
+execute if predicate solarsystem:in_trappist1g run scoreboard players set @s g 900
+execute if predicate solarsystem:in_trappist1h run scoreboard players set @s g 600
+#Robot System:
+execute if predicate solarsystem:in_robot_dyson_swarm run scoreboard players set @s g 0
+execute if predicate solarsystem:in_robot_d run scoreboard players set @s g 2500
+execute if predicate solarsystem:in_robot_db run scoreboard players set @s g 400
+execute if predicate solarsystem:in_robot_eb run scoreboard players set @s g 1150
+execute if predicate solarsystem:in_robot_ec run scoreboard players set @s g 600
+execute if predicate solarsystem:in_robot_ed run scoreboard players set @s g 300
+execute if predicate solarsystem:in_robot_ee run scoreboard players set @s g 800
+execute if predicate solarsystem:in_robot_ef run scoreboard players set @s g 300
+execute if predicate solarsystem:in_robot_eg run scoreboard players set @s g 80
+execute if predicate solarsystem:in_robot_f run scoreboard players set @s g 15000
+execute if predicate solarsystem:in_robot_fb run scoreboard players set @s g 300
+execute if predicate solarsystem:in_robot_fc run scoreboard players set @s g 180
+execute if predicate solarsystem:in_robot_fd run scoreboard players set @s g 200
+execute if predicate solarsystem:in_robot_fe run scoreboard players set @s g 180
+execute if predicate solarsystem:in_robot_ff run scoreboard players set @s g 130
+execute if predicate solarsystem:in_robot_g run scoreboard players set @s g 10000
+execute if predicate solarsystem:in_robot_gb run scoreboard players set @s g 800
+execute if predicate solarsystem:in_robot_gc run scoreboard players set @s g 600
+execute if predicate solarsystem:in_robot_gd run scoreboard players set @s g 800
+execute if predicate solarsystem:in_robot_h run scoreboard players set @s g 5000
+execute if predicate solarsystem:in_robot_hb run scoreboard players set @s g 200
+execute if predicate solarsystem:in_robot_hc run scoreboard players set @s g 180
+execute if predicate solarsystem:in_robot_hd run scoreboard players set @s g 180
+execute if predicate solarsystem:in_robot_he run scoreboard players set @s g 180
+execute if predicate solarsystem:in_robot_i run scoreboard players set @s g 2500
+execute if predicate solarsystem:in_robot_ib run scoreboard players set @s g 60
+execute if predicate solarsystem:in_robot_ic run scoreboard players set @s g 20
+execute if predicate solarsystem:in_robot_id run scoreboard players set @s g 30
+execute if predicate solarsystem:in_robot_j run scoreboard players set @s g 600
+execute if predicate solarsystem:in_robot_jb run scoreboard players set @s g 20
+execute if predicate solarsystem:in_robot_jc run scoreboard players set @s g 60
+execute if predicate solarsystem:in_robot_jd run scoreboard players set @s g 40
+execute if predicate solarsystem:in_robot_je run scoreboard players set @s g 80
+execute if predicate solarsystem:in_robot_jf run scoreboard players set @s g 20
+execute if predicate solarsystem:in_robot_k run scoreboard players set @s g 30
+execute if predicate solarsystem:in_robot_l run scoreboard players set @s g 80
+execute if predicate solarsystem:in_robot_lb run scoreboard players set @s g 30
+execute if predicate solarsystem:in_robot_m run scoreboard players set @s g 20
+
+#Graviton Resetter
+execute at @e[type=minecraft:armor_stand,tag=graviton_resetter] run scoreboard players reset @s[distance=..25] g

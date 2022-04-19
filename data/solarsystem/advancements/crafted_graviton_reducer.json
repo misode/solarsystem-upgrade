@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"crafted_air_generator": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "solarsystem:graviton_reducer"
+			}
+		}
+	},
+	"rewards": {
+		"function": "solarsystem:crafted/graviton_reducer"
+	}
+}

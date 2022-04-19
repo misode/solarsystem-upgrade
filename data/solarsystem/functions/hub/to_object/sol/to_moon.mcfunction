@@ -1,0 +1,22 @@
+execute if entity @e[tag=hub_origin,scores={hub_x=3}] in solarsystem:moon run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=6,hub_z=1}] in solarsystem:io run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=6,hub_z=2}] in solarsystem:europa run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=6,hub_z=3}] in solarsystem:ganymede run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=6,hub_z=4}] in solarsystem:callist run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=1}] in solarsystem:mimas run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=2}] in solarsystem:enceladus run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=3}] in solarsystem:tethys run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=4}] in solarsystem:dione run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=5}] in solarsystem:rhea run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=6}] in solarsystem:titan run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=7,hub_z=7}] in solarsystem:iapetus run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=1}] in solarsystem:miranda run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=2}] in solarsystem:ariel run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=3}] in solarsystem:umbriel run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=4}] in solarsystem:titania run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=8,hub_z=5}] in solarsystem:oberon run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=9}] in solarsystem:triton run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=10}] in solarsystem:vanth run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=11}] in solarsystem:charon run tp @s ~ 256 ~
+execute if entity @e[tag=hub_origin,scores={hub_x=16}] in solarsystem:dysnomia run tp @s ~ 256 ~
+execute at @s run spreadplayers ~ ~ 0 1 false @s

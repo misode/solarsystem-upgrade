@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:white_concrete_powder"
+    },
+    "under_material": {
+      "Name": "minecraft:diorite"
+    },
+    "underwater_material": {
+      "Name": "minecraft:gravel"
+    }
+  },
+  "type": "minecraft:default"
+}

@@ -1,0 +1,524 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Solar",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Explore all of the Solar System"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Sol\\\"}\"},SkullOwner:{Id:[I;1455131298,1550405205,-1878963968,-73184871],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjJiNmUyNDhiMzIzODI4MjM3MzNlZDEzM2Q3Y2U5YWI3NDNjNDBhYjE4NTY3MDE5MmViMjMxYjgzMTc3Yzg2ZSJ9fX0=\"}]}}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Regolith Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:regolith_mountains"
+            }
+        },
+        "Regolith Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:regolith_hills"
+            }
+        },
+        "Regolith Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:regolith_plains"
+            }
+        },
+        "Regolith Valley": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:regolith_valley"
+            }
+        },
+        "Regolith Crater": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:regolith_crater"
+            }
+        },
+        "Regolith Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:regolith_crater_edge"
+            }
+        },
+        "Basalt Ridge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:basalt_ridge"
+            }
+        },
+        "Venusian Volcano": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:venusian_volcano"
+            }
+        },
+        "Venusian Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:venusian_mountains"
+            }
+        },
+        "Venusian Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:venusian_hills"
+            }
+        },
+        "Venusian Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:venusian_plains"
+            }
+        },
+        "Venusian Valley": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:venusian_valley"
+            }
+        },
+        "Venusian Lava Lake": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:venusian_lava_lake"
+            }
+        },
+        "Venusian Lava Flow": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:venusian_lava_flow"
+            }
+        },
+        "Maria": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:maria"
+            }
+        },
+        "Martian Volcano": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_volcano"
+            }
+        },
+        "Martian Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_mountains"
+            }
+        },
+        "Martian Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_hills"
+            }
+        },
+        "Martian Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_plains"
+            }
+        },
+        "Martian Valley": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_valley"
+            }
+        },
+        "Martian Canyon": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_canyon"
+            }
+        },
+        "Martian Icecap Volcano": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_volcano"
+            }
+        },
+        "Martian Icecap Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_mountains"
+            }
+        },
+        "Martian Icecap Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_hills"
+            }
+        },
+        "Martian Icecap Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_plains"
+            }
+        },
+        "Martian Icecap Valley": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_valley"
+            }
+        },
+        "Martian Icecap Canyon": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_canyon"
+            }
+        },
+        "Martian Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_crater_edge"
+            }
+        },
+        "Cererean Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:cererean_crater_edge"
+            }
+        },
+        "Cererean Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:cererean_hills"
+            }
+        },
+        "Cererean Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:cererean_plains"
+            }
+        },
+        "Cererean Crater": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:cererean_crater"
+            }
+        },
+        "Jovian Brown": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:jovian_brown"
+            }
+        },
+        "Jovian White": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:jovian_white"
+            }
+        },
+        "Jovian Red": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:jovian_red"
+            }
+        },
+        "Ionian Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:ionian_mountains"
+            }
+        },
+        "Ionian Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:ionian_hills"
+            }
+        },
+        "Ionian Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:ionian_plains"
+            }
+        },
+        "Ionian Valley": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:ionian_valley"
+            }
+        },
+        "Ionian Volcano": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:ionian_volcano"
+            }
+        },
+        "Ionian Lava Flow": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:ionian_lava_flow"
+            }
+        },
+        "Europan Brown": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:europan_brown"
+            }
+        },
+        "Saturnian Yellow": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:saturnian_yellow"
+            }
+        },
+        "Saturnian Green": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:saturnian_green"
+            }
+        },
+        "Saturnian Blue": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:saturnian_blue"
+            }
+        },
+        "Titanian Dunes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:titanian_dunes"
+            }
+        },
+        "Titanian Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:titanian_plains"
+            }
+        },
+        "Titanian Lake": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:titanian_lake"
+            }
+        },
+        "Iapetian Ridge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:iapetian_ridge"
+            }
+        },
+        "Iapetian Gray": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:iapetian_gray"
+            }
+        },
+        "Uranian Lightblue": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:uranian_lightblue"
+            }
+        },
+        "Neptunian Lightblue": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:neptunian_lightblue"
+            }
+        },
+        "Neptunian Blue": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:neptunian_blue"
+            }
+        },
+        "Snowy Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:snowy_crater_edge"
+            }
+        },
+        "Snowy Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:snowy_hills"
+            }
+        },
+        "Snowy Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:snowy_plains"
+            }
+        },
+        "Snowy Crater": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:snowy_crater"
+            }
+        },
+        "Snowy Blue Ice Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:snowy_blue_ice_crater_edge"
+            }
+        },
+        "Snowy Blue Ice Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:snowy_blue_ice_hills"
+            }
+        },
+        "Snowy Blue Ice Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:snowy_blue_ice_plains"
+            }
+        },
+        "Snowy Blue Ice Crater": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:snowy_blue_ice_crater"
+            }
+        },
+        "Blue Icy Light Gray Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:blue_icy_light_gray_hills"
+            }
+        },
+        "Blue Icy Light Gray Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:blue_icy_light_gray_plains"
+            }
+        },
+        "Blue Icy Gray Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:blue_icy_gray_crater_edge"
+            }
+        },
+        "Blue Icy Gray Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:blue_icy_gray_hills"
+            }
+        },
+        "Blue Icy Gray Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:blue_icy_gray_plains"
+            }
+        },
+        "Icy Light Gray Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_light_gray_crater_edge"
+            }
+        },
+        "Icy Light Gray Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_light_gray_hills"
+            }
+        },
+        "Icy Light Gray Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_light_gray_plains"
+            }
+        },
+        "Icy Gray Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_gray_hills"
+            }
+        },
+        "Icy Gray Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_gray_plains"
+            }
+        },
+        "Icy Pink Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_pink_crater_edge"
+            }
+        },
+        "Icy Pink Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_pink_hills"
+            }
+        },
+        "Icy Pink Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_pink_plains"
+            }
+        },
+        "Icy Purple Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_purple_crater_edge"
+            }
+        },
+        "Icy Purple Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_purple_hills"
+            }
+        },
+        "Icy Purple Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_purple_plains"
+            }
+        },
+        "Icy Red Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_red_crater_edge"
+            }
+        },
+        "Icy Red Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_red_hills"
+            }
+        },
+        "Icy Red Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_red_plains"
+            }
+        },
+        "Icy Regolith Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_regolith_crater_edge"
+            }
+        },
+        "Icy Regolith Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_regolith_hills"
+            }
+        },
+        "Icy Regolith Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_regolith_plains"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 8300
+    },
+    "parent": "solarsystem:root"
+}

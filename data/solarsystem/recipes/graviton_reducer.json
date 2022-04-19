@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+		"SNS",
+		"NBN",
+		"SNS"
+    ],
+	"key": {
+		"S": {
+			"item": "minecraft:shulker_shell"
+		},
+		"N": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"B": {
+			"item": "minecraft:beacon"
+		}
+	},
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

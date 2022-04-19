@@ -1,0 +1,25 @@
+{
+  "type": "solarsystem:thick_atmosphere",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 2899182094,
+    "settings": "solarsystem:robot_gas_giant",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:robot_gas_giant_red",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.4,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

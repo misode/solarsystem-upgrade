@@ -1,0 +1,2 @@
+#Texture
+execute as @e[tag=block_part,sort=nearest,limit=8] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;869997124,-1286909982,-1332202859,-1495321544],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU3Y2M3M2IzMjE0OWM0MzQ5OGJjNzM0ZWZjZTliMzEzMDM5OWJkNDI3MTVmOWU3Y2Y3ZDVhZWJhZDhkM2FhMyJ9fX0="}]}}}}]}

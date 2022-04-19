@@ -1,0 +1,1 @@
+execute unless entity @s[y=-64,distance=64..] run tp @s ~ 0 ~

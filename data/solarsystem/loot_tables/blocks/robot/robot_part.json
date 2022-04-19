@@ -1,0 +1,94 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:player_head",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.25
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Robot Head\",\"italic\":false}'},Tags:[space_proof],Enchantments:[{id:\"minecraft:protection\",lvl:4s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;-1658080239,-110868390,-1417265349,544869941],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;1950837547,1260867316,-2107691978,1102517915],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1195248530,406537231,-2059458672,-2001582644],Slot:\"head\"}],SkullOwner:{Id:[I;-250190590,-110148712,-1694091272,-1672737529],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUwNzE4MzA5MTEzZDQ1ZTQ0M2VjZTUwMDJiNzE4YTkxYjA3YzE5YmY4ZjQ0ZjMzNzc0MzAzMTkxNzkyMWEzNCJ9fX0=\"}]}}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_chestplate",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.25
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Robot Chestplate\",\"color\":\"yellow\",\"italic\":false}',color:12763842},Tags:[space_proof],Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:9,Operation:0,UUID:[I;1196391348,460801777,-1247449212,1306645778],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-1258339796,525879911,-1178941373,850797886],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1195248530,406537231,-2059458672,-2001582644],Slot:\"chest\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_leggings",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.25
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Robot Leggings\",\"color\":\"yellow\",\"italic\":false}',color:12763842},Tags:[space_proof],Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:7,Operation:0,UUID:[I;-1228287470,1708543781,-1272936115,284173348],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-781539828,1619609548,-1493354323,1471410776],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.2,Operation:1,UUID:[I;-1187188410,-1158263356,-1410263383,2075989154],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-1195248530,406537231,-2059458672,-2001582644],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.25
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:'{\"text\":\"Robot Boots\",\"color\":\"yellow\",\"italic\":false}',color:12763842},Tags:[space_proof],Unbreakable:1b,AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:4,Operation:0,UUID:[I;1404490752,-550615445,-1737820196,515790059],Slot:\"legs\"},{AttributeName:\"generic.armor_toughness\",Name:\"generic.armor_toughness\",Amount:4,Operation:0,UUID:[I;-604771952,182732276,-2122885080,-63691923],Slot:\"legs\"},{AttributeName:\"generic.knockback_resistance\",Name:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;986997069,-1499116457,-1181301465,-909320494],Slot:\"legs\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:crossbow",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.25
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Tags:[laser_gun],display:{Name:'{\"text\":\"Laser Pistol\",\"color\":\"yellow\",\"italic\":false}'},Unbreakable:1b,Enchantments:[{id:\"minecraft:quick_charge\",lvl:10s}],ChargedProjectiles:[{id:\"minecraft:arrow\",Count:1b},{},{}],Charged:1b}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

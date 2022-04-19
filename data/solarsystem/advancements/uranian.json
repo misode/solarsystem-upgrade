@@ -1,0 +1,32 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Uranian",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "text": "Visit Uranus"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Uranus\\\"}\"},SkullOwner:{Id:[I;-941815090,-1271247840,-1501464586,1644353420],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY1OGJjMjE4YmRjYjEyNGYxZjUxMTcwNmJkOTY3YmY2NjFjNzNhNjJiMmZjMWZhOGQzZjg2NjBmZTNiNjBkOCJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Uranian Lightblue": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:uranian_lightblue"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "solarsystem:solar"
+}

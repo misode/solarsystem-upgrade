@@ -1,0 +1,58 @@
+{
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "solarsystem:spring_closed",
+      "solarsystem:ore_redstone_io",
+      "solarsystem:ore_lapis_io",
+      "solarsystem:ore_granite_io",
+      "solarsystem:ore_diorite_io",
+      "solarsystem:ore_andesite_io",
+      "solarsystem:ore_iron_io",
+      "solarsystem:ore_gold_io"
+    ],
+    [],
+    [],
+    [
+      "minecraft:spring_lava"
+    ],
+    []
+  ],
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "sky_color": 0,
+    "fog_color": 0,
+    "water_color": 0,
+    "water_fog_color": 0
+  },
+  "precipitation": "none",
+  "category": "none"
+}

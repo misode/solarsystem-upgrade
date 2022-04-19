@@ -1,0 +1,109 @@
+{
+  "type": "solarsystem:space",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -981534142,
+    "settings": "solarsystem:packed_ice",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:icy_regolith_hills",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:icy_regolith_plains",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:icy_gray_hills",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:icy_gray_plains",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:icy_regolith_crater_edge",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.7,
+            "depth": 0,
+            "offset": 0.225
+          }
+        },
+        {
+          "biome": "solarsystem:icy_regolith_crater_edge",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0.7,
+            "depth": 0,
+            "offset": 0.225
+          }
+        },
+        {
+          "biome": "solarsystem:snowy_crater",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.8,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:snowy_crater",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0.8,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+execute as @e[tag=air_generator_part,sort=nearest,limit=8] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;869997124,-1286909982,-1332202859,-1495321544],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRiOTRhNjI5NGM3MzVlZjVmNjc3ZWVlOTBhZDk0ZmQyYjk3YWYxM2FiYzdkMTNiNTBjMjk2ZmE0MjM3NWFlIn19fQ=="}]}}}}]}
+stopsound @a[distance=..25] block minecraft:entity.bee.loop

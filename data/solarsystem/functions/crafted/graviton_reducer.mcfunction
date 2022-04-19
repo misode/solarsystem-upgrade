@@ -1,0 +1,6 @@
+recipe take @s solarsystem:graviton_reducer
+advancement revoke @s only solarsystem:crafted_graviton_reducer
+execute as @s[scores={recipe_known_3=1},gamemode=!creative] run give @s minecraft:player_head{display:{Name:'{"text":"Graviton Reducer","color":"light_purple","italic":false}'},SkullOwner:{Id:[I;2012820418,-336051977,-1362763724,1176503772],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU3OTUxYzcyZDljMDI0YmZjZjVmMmE1Yzk3OGIzZTk0MDJkODFlYTRmMTdiYTVhMjllNWE2YmEzOTEwYWIyMSJ9fX0="}]}}}
+execute as @s[gamemode=!creative] unless entity @s[scores={recipe_known_3=1}] run function solarsystem:crafted/graviton_reducer_refund
+execute as @s[gamemode=creative] run give @s minecraft:player_head{display:{Name:'{"text":"Graviton Reducer","color":"light_purple","italic":false}'},SkullOwner:{Id:[I;2012820418,-336051977,-1362763724,1176503772],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU3OTUxYzcyZDljMDI0YmZjZjVmMmE1Yzk3OGIzZTk0MDJkODFlYTRmMTdiYTVhMjllNWE2YmEzOTEwYWIyMSJ9fX0="}]}}}
+clear @s minecraft:knowledge_book

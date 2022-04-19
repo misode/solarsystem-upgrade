@@ -1,0 +1,19 @@
+scoreboard players set @s hub_x 3
+scoreboard players set @s hub_z 0
+scoreboard players set @s hub_w 0
+scoreboard players set @s moons 1
+scoreboard players set @s planets 17
+summon minecraft:armor_stand ~ ~-0.125 ~3 {Invisible:1b,NoGravity:1b,Tags:["planet","3"],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRkNjFjMTQ2MTY2ZGVjNTc2M2IxZWM5YmM0OTQyZGM4ZDY5ZjNiYzM4MTgwODNiNjcyOWI2NzIwYTE0MDBmNSJ9fX0="}]},Id:[I;-667827962,1977633960,-1813230866,1358841813]},display:{Name:'{"text":"Earth"}'}}}]}
+summon minecraft:armor_stand ~ ~1.875 ~3 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Tags:["planet_name"],CustomName:"{\"text\":\"Earth\",\"color\":\"white\"}",CustomNameVisible:1b}
+summon minecraft:armor_stand ~ ~2.125 ~3 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Tags:["primary"],CustomName:"{\"text\":\"Primary: Sol\",\"color\":\"gray\"}",CustomNameVisible:1b}
+summon minecraft:armor_stand ~1.25 ~1.375 ~3 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Small:1b,Tags:["Gravity"],CustomName:"{\"text\":\"Gravity:\",\"color\":\"white\"}",CustomNameVisible:1b}
+summon minecraft:armor_stand ~1.25 ~1.125 ~3 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Small:1b,Tags:["g"],CustomName:"{\"text\":\"1g\",\"color\":\"white\"}",CustomNameVisible:1b}
+summon minecraft:armor_stand ~-1.25 ~1.625 ~3 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Tags:["materials"],CustomName:"{\"text\":\"Materials:\",\"color\":\"white\"}",CustomNameVisible:1b}
+summon minecraft:armor_stand ~-1.25 ~1.375 ~3 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Tags:["material1"],CustomName:"{\"text\":\"Overworld\",\"color\":\"green\"}",CustomNameVisible:1b}
+summon minecraft:armor_stand ~-1.25 ~1.125 ~3 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Tags:["material2"],CustomName:"{\"text\":\"2\",\"color\":\"green\"}",CustomNameVisible:0b}
+summon minecraft:armor_stand ~-1.25 ~0.875 ~3 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Tags:["material3"],CustomName:"{\"text\":\"3\",\"color\":\"green\"}",CustomNameVisible:0b}
+summon minecraft:armor_stand ~-1.25 ~0.625 ~3 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,Tags:["material4"],CustomName:"{\"text\":\"4\",\"color\":\"green\"}",CustomNameVisible:0b}
+summon minecraft:armor_stand ~ ~ ~1 {Invisible:1b,NoGravity:1b,Tags:["hub+z"]}
+summon minecraft:armor_stand ~1 ~ ~ {Invisible:1b,NoGravity:1b,Tags:["hub+x"]}
+summon minecraft:armor_stand ~ ~ ~-1 {Invisible:1b,NoGravity:1b,Tags:["hub-z"]}
+summon minecraft:armor_stand ~-1 ~ ~ {Invisible:1b,NoGravity:1b,Tags:["hub-x"]}

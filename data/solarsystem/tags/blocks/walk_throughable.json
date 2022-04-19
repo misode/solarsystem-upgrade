@@ -1,0 +1,27 @@
+{
+  "values": [
+    "#minecraft:buttons",
+    "#minecraft:carpets",
+    "#minecraft:climbable",
+    "#minecraft:coral_plants",
+    "#minecraft:crops",
+    "#minecraft:doors",
+    "#minecraft:fence_gates",
+    "#minecraft:fences",
+    "#minecraft:fire",
+    "#minecraft:flowers",
+    "#minecraft:flower_pots",
+    "#minecraft:rails",
+    "#minecraft:saplings",
+    "#minecraft:walls",
+    "#minecraft:wall_post_override",
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:dead_bush",
+    "minecraft:grass",
+    "minecraft:redstone_wire",
+    "minecraft:snow",
+    "minecraft:tall_grass",
+    "minecraft:void_air"
+  ]
+}

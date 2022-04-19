@@ -1,0 +1,2 @@
+execute if entity @s[scores={hub_z=0}] run function solarsystem:hub/new_object/robot_system/new_planet
+execute if entity @s[scores={hub_z=1..}] run function solarsystem:hub/new_object/robot_system/new_moon

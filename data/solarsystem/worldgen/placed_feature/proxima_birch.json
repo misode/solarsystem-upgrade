@@ -1,0 +1,36 @@
+{
+    "feature": "solarsystem:proxima_birch",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "minecraft:weighted_list",
+                "distribution": [
+                    {
+                        "weight": 70,
+                        "data": 8
+                    },
+                    {
+                        "weight": 30,
+                        "data": 9
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+        },
+        {
+            "type": "minecraft:surface_water_depth_filter",
+            "max_water_depth": 0
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "OCEAN_FLOOR"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Martian",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Explore all of Mars' unique biomes"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Mars\\\"}\"},SkullOwner:{Id:[I;1823467125,586894959,-1756584655,1643198818],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZThiNWY4MzBhZGMyNzU0MDA0MDU2N2RmZTZjYzA2ZTRjZjY5N2Y4NGJhZDAwYjYyZGQ4MjMyNmMzNDIxNzUzMyJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Martian Volcano": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_volcano"
+            }
+        },
+        "Martian Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_mountains"
+            }
+        },
+        "Martian Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_hills"
+            }
+        },
+        "Martian Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_plains"
+            }
+        },
+        "Martian Valley": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_valley"
+            }
+        },
+        "Martian Canyon": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_canyon"
+            }
+        },
+        "Martian Icecap Volcano": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_volcano"
+            }
+        },
+        "Martian Icecap Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_mountains"
+            }
+        },
+        "Martian Icecap Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_hills"
+            }
+        },
+        "Martian Icecap Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_plains"
+            }
+        },
+        "Martian Icecap Valley": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_valley"
+            }
+        },
+        "Martian Icecap Canyon": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_icecap_canyon"
+            }
+        },
+        "Martian Crater Edge": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:martian_crater_edge"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1200
+    },
+    "parent": "solarsystem:solar"
+}

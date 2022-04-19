@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "weight": 2,
+                    "name": "solarsystem:blocks/robot/machine_supplies"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 3,
+                    "name": "solarsystem:blocks/robot/common_robotics"
+                },
+                {
+                    "type": "loot_table",
+                    "weight": 1,
+                    "name": "solarsystem:blocks/robot/common_chemistry"
+                }
+            ]
+        }
+    ]
+}

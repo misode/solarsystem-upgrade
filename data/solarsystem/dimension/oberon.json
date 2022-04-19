@@ -1,0 +1,73 @@
+{
+  "type": "solarsystem:space",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 181063577,
+    "settings": "solarsystem:packed_ice",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:icy_light_gray_hills",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:icy_light_gray_plains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -0.2,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:snowy_crater",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.8,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:icy_light_gray_crater_edge",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.05,
+            "erosion": 0,
+            "weirdness": 0.6,
+            "depth": 0,
+            "offset": 0.3
+          }
+        },
+        {
+          "biome": "solarsystem:icy_light_gray_crater_edge",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": -0.05,
+            "erosion": 0,
+            "weirdness": 0.6,
+            "depth": 0,
+            "offset": 0.3
+          }
+        }
+      ]
+    }
+  }
+}

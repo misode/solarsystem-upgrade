@@ -1,0 +1,20 @@
+{
+    "feature": "solarsystem:ore_diamond_x2",
+    "placement": [
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "absolute": 0
+                },
+                "max_inclusive": {
+                    "absolute": 63
+                }
+            }
+        }
+    ]
+}

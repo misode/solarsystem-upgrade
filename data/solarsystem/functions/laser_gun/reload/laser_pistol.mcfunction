@@ -1,0 +1,1 @@
+item replace entity @s weapon.mainhand with crossbow{Tags:[laser_gun],display:{Name:'{"text":"Laser Pistol","color":"yellow","italic":false}'},Unbreakable: 1b,Enchantments:[{id:"minecraft:quick_charge",lvl:10s}],ChargedProjectiles:[{id:"minecraft:arrow",Count:1b},{},{}],Charged:1b}

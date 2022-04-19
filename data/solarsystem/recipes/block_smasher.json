@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+		"NNN",
+		"OCD",
+		"NNN"
+    ],
+	"key": {
+		"N": {
+			"item": "minecraft:netherite_ingot"
+		},
+		"O": {
+			"item": "minecraft:observer"
+		},
+		"C": {
+			"item": "minecraft:creeper_head"
+		},
+		"D": {
+			"item": "minecraft:dispenser"
+		}
+	},
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

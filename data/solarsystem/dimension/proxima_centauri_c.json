@@ -1,0 +1,25 @@
+{
+  "type": "solarsystem:thick_atmosphere",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 3767595290,
+    "settings": "solarsystem:empty",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:proxima_centauri_c",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

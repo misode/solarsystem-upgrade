@@ -1,0 +1,58 @@
+{
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "solarsystem:ore_redstone_x5",
+      "solarsystem:ore_lapis_x5",
+      "solarsystem:ore_iron_x2",
+      "solarsystem:ore_gold_x2",
+      "solarsystem:ore_diamond_x2",
+      "solarsystem:ore_blackstone",
+      "solarsystem:ore_basalt",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower"
+    ],
+    [],
+    [],
+    [],
+    []
+  ],
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "sky_color": 7822196,
+    "fog_color": 7822196,
+    "water_color": 7822196,
+    "water_fog_color": 7822196
+  },
+  "precipitation": "none",
+  "category": "none"
+}

@@ -1,0 +1,1 @@
+scoreboard players add @s spawn_robot 10

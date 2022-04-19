@@ -1,0 +1,134 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Proxima Centaurian",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Explore all of the Proxima Centauri System"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Proxima Centauri\\\"}\"},SkullOwner:{Id:[I;946782303,248463469,-1249163808,-990328703],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzY0MGJjOGQzNGE1NDkzOGRhMDRhZGNhZWZiNjMyMzRkYTU1ZmYwY2I2ZTgxMzA2NjU5NzU4YWU0MTg4OWE2OSJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Proxima Centauri B Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_mountains"
+            }
+        },
+        "Proxima Centauri B Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_hills"
+            }
+        },
+        "Proxima Centauri B Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_plains"
+            }
+        },
+        "Proxima Centauri B Beach": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_beach"
+            }
+        },
+        "Proxima Centauri B Ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_ocean"
+            }
+        },
+        "Proxima Centauri B Deep Ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_deep_ocean"
+            }
+        },
+        "Proxima Centauri B Forest Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_forest_hills"
+            }
+        },
+        "Proxima Centauri B Forest": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_forest"
+            }
+        },
+        "Proxima Centauri B Tundra Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_tundra_mountains"
+            }
+        },
+        "Proxima Centauri B Tundra Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_tundra_hills"
+            }
+        },
+        "Proxima Centauri B Tundra": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_tundra"
+            }
+        },
+        "Proxima Centauri B Frozen Beach": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_frozen_beach"
+            }
+        },
+        "Proxima Centauri B Frozen Ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_frozen_ocean"
+            }
+        },
+        "Proxima Centauri B Deep Frozen Ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_deep_frozen_ocean"
+            }
+        },
+        "Proxima Centauri B Desert Mountains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_desert_mountains"
+            }
+        },
+        "Proxima Centauri B Desert Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_desert_hills"
+            }
+        },
+        "Proxima Centauri B Desert": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_b_desert"
+            }
+        },
+        "Proxima Centauri C": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:proxima_centauri_c"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1800
+    },
+    "parent": "solarsystem:root"
+}

@@ -1,0 +1,44 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Trappist-1 G",
+            "color": "dark_aqua"
+        },
+        "description": {
+            "text": "Explore all of Trappist-1 G's unique biomes"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Trappist-1 G\\\"}\"},SkullOwner:{Id:[I;946782303,248463469,-1249163808,-990328703],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQyODNjZWU5YmQ2ODFhMzMxNWY2MjQxODYzZGYyZWIyOWEyNjI0YzI1Y2U2OTczOTRhOTQ5MThhMDM2YzliMyJ9fX0=\"}]}}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Icy Water World Hills": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_water_world_hills"
+            }
+        },
+        "Icy Water World Plains": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_water_world_plains"
+            }
+        },
+        "Icy Water World Valley": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "biome": "solarsystem:icy_water_world_valley"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 300
+    },
+    "parent": "solarsystem:trappistian"
+}

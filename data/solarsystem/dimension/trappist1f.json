@@ -1,0 +1,25 @@
+{
+  "type": "solarsystem:thick_atmosphere_water_safe",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1900507126,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:steamy_deep_ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

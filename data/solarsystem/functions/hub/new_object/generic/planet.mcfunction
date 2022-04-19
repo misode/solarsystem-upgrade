@@ -1,0 +1,2 @@
+data merge entity @e[tag=materials,sort=nearest,limit=1] {CustomName:'{"color":"white","text":"Materials:"}'}
+data merge entity @e[tag=Gravity,sort=nearest,limit=1] {CustomName:'{"color":"white","text":"Gravity:"}'}

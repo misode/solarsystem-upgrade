@@ -1,0 +1,68 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 3,
+                "max": 7
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 48,
+                                "max": 128
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:granite",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 48,
+                                "max": 128
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diorite",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 48,
+                                "max": 128
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:andesite",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 48,
+                                "max": 128
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

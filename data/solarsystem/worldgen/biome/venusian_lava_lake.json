@@ -1,0 +1,65 @@
+{
+  "spawners": {
+    "water_ambient": [],
+    "ambient": [],
+    "misc": [],
+    "water_creature": [],
+    "creature": [],
+    "monster": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_surface",
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "solarsystem:ore_blackstone",
+      "solarsystem:ore_basalt",
+      "solarsystem:spring_closed",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "solarsystem:ore_redstone_x5",
+      "solarsystem:ore_diamond_x2",
+      "solarsystem:ore_lapis_x5"
+    ],
+    [],
+    [],
+    [
+      "minecraft:spring_lava"
+    ],
+    []
+  ],
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_chance": 0.01
+    },
+    "ambient_sound": "minecraft:ambient.underwater.loop",
+    "sky_color": 14404708,
+    "fog_color": 13478406,
+    "water_color": 14404708,
+    "water_fog_color": 14404708
+  },
+  "precipitation": "none",
+  "category": "none"
+}

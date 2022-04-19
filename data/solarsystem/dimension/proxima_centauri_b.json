@@ -1,0 +1,301 @@
+{
+  "type": "solarsystem:space_water_safe",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 1354444009,
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "solarsystem:proxima_centauri_b_mountains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.3,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_hills",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.3,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_plains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.3,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_beach",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.3,
+            "continentalness": -0.29,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.04
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.3,
+            "continentalness": -0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_deep_ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": -0.3,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_mountains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.3,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_forest_hills",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.3,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_forest",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.3,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_beach",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.3,
+            "continentalness": -0.29,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.04
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.3,
+            "continentalness": -0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_deep_ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.3,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_tundra_mountains",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.5,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_tundra_hills",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.5,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_tundra",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_frozen_beach",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.5,
+            "continentalness": -0.29,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.04
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_frozen_ocean",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.5,
+            "continentalness": -0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_deep_frozen_ocean",
+          "parameters": {
+            "temperature": -0.5,
+            "humidity": -0.5,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_desert_mountains",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_desert_hills",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_desert",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_beach",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": -0.29,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0.04
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_ocean",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": -0.3,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "solarsystem:proxima_centauri_b_deep_ocean",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": -0.5,
+            "continentalness": -0.5,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+execute unless entity @s[scores={tip=0..}] run tellraw @s [{"text":"Use ","color":"yellow"},{"text":"/trigger return ","color":"green","italic":true,"hoverEvent":{"action":"show_text","contents":[{"text":"/trigger return"}]},"clickEvent":{"action":"suggest_command","value":"/trigger return"}},{"text":"to Return to the Overworld at Your Current Position","color":"yellow"}]
+tellraw @s[scores={tip=1}] [{"text":"Hold shift to jump higher on low gravity worlds!","color":"yellow"}]
+tellraw @s[scores={tip=2}] [{"text":"Visit the ","color":"yellow"},{"text":"Wiki ","color":"blue","clickEvent":{"action":"open_url","value":"https://minecraft-solar-system-datapack.fandom.com/wiki/Minecraft_Solar_System_Datapack_Wiki"}},{"text":"to learn more about this datapack and help others by adding to it!"}]
+scoreboard players add @s tip 1
+execute as @s[scores={tip=3..}] run scoreboard players reset @s tip
