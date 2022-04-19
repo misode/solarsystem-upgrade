@@ -27,12 +27,12 @@
       "minecraft:ore_iron_small",
       "minecraft:ore_gold",
       "minecraft:ore_gold_lower",
+      "solarsystem:ore_redstone_x5",
+      "solarsystem:ore_lapis_x5",
+      "solarsystem:ore_diamond_x2",
       "solarsystem:ore_blackstone",
       "solarsystem:ore_basalt",
-      "solarsystem:spring_closed",
-      "solarsystem:ore_redstone_x5",
-      "solarsystem:ore_diamond_x2",
-      "solarsystem:ore_lapis_x5"
+      "solarsystem:spring_closed"
     ],
     [],
     [],
