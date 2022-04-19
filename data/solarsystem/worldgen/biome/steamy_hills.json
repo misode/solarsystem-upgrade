@@ -19,8 +19,6 @@
     [],
     [],
     [
-      "solarsystem:ore_redstone_x2",
-      "solarsystem:ore_lapis_x2",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
       "minecraft:ore_iron_small",
@@ -29,6 +27,8 @@
       "minecraft:ore_diamond",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
+      "solarsystem:ore_redstone_x2",
+      "solarsystem:ore_lapis_x2",
       "minecraft:ore_granite_upper",
       "minecraft:ore_granite_lower",
       "minecraft:ore_diorite_upper",
